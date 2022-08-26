@@ -9,3 +9,13 @@ function palindrome(y){
 }
 
 palindrome("ror")
+
+// Other Method
+
+// for (let num = 0; num <= 50; num++){
+//   let reveresed_string = num.toString().split('').reverse().join('')
+//   let reveresed_int = parseInt(reveresed_string)
+//   if(reveresed_int === num){
+//     console.log(num)
+//   }
+// }
