@@ -1,0 +1,21 @@
+function singleDigitSum(n){
+  let sum = 0;
+
+  while(n > 0 || sum > 9){
+    if(n === 0){
+      n = sum; /* Because I am going to perform my operation in "n" and not in sum */
+      sum = 0; /* If ther is a previous output in the sum then i wont get the right answer means it would keep on adding on that sum */
+    }
+    let digit = n % 10;
+    sum += digit;
+    n = parseInt(n / 10);
+  }
+  return sum;
+}
+
+
+
+c = singleDigitSum(12345)
+console.log(c)
+
+
