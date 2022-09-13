@@ -33,3 +33,29 @@ for(let i = 0; i < arr.length; i++){
   arr[i].reverse();
 }
 console.log(arr)
+
+
+
+
+
+// Method 2
+
+mat = [
+  [1,2,3],
+  [4,5,6],
+  [7,8,9]
+]
+
+rowsncols = 3 - 1
+result = []
+for(let i =0; i <= rowsncols; i++){
+  result[i] = []
+  for(let j = rowsncols; j >= 0; j--){
+    result[i][rowsncols - j] = mat[j][i]
+  }
+  
+}
+console.log(result)
+
+
+
