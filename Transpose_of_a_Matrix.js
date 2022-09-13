@@ -22,3 +22,20 @@ for(let i = 0; i < arr.length; i++){
   
 }
 console.log(arr)
+
+
+// Method 2
+
+arr = [
+       [1,2,3],
+       [4,5,6],
+       [7,8,9]
+      ]
+result = []
+for(let i = 0; i <= 2; i++){
+  result[i] = []
+  for(let j = 0; j <= 2; j++){
+    result[i][j] = arr[j][i]
+  }
+}
+console.log(result)
