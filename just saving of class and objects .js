@@ -36,3 +36,6 @@ class Shape{
 
 let triangle = new Shape(3);
 console.log(triangle)
+
+
+// any function inside an object is called method
