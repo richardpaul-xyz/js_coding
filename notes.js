@@ -12,3 +12,4 @@ example-
        return 222 - 10
   } //this is function expression it works properly in objects
  }
+3) know about apstraction and encapsulation and their differencees
