@@ -13,3 +13,9 @@ example-
   } //this is function expression it works properly in objects
  }
 3) know about apstraction and encapsulation and their differencees
+
+#) while solving array dsa problems most of them will be 
+-two pointer approach or
+-maps or objects
+
+thats it
